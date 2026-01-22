@@ -1,113 +1,87 @@
-🌾 Crop Recommendation System
-📌 Project Overview
+# 🌾 Crop Recommendation System
 
-The Crop Recommendation System is a machine learning–based application designed to assist farmers and agricultural planners in selecting the most suitable crop to grow based on soil and environmental conditions.
-The system uses parameters such as Nitrogen (N), Phosphorus (P), Potassium (K), temperature, humidity, pH value, and rainfall to predict the best crop for cultivation.
+## 📌 Project Overview
+The **Crop Recommendation System** is a machine learning–based application that helps farmers and agricultural planners choose the most suitable crop based on soil nutrients and environmental conditions.
 
-This project aims to promote smart agriculture and improve crop productivity using data-driven decision-making.
+The system predicts the best crop using parameters such as **Nitrogen (N), Phosphorus (P), Potassium (K), temperature, humidity, pH value, and rainfall**, promoting smart and sustainable agriculture.
 
-🎯 Objectives
+---
 
-To recommend the most suitable crop based on soil and climate conditions
+## 🎯 Objectives
+- Recommend the most suitable crop for cultivation
+- Reduce crop failure risk
+- Support decision-making using machine learning
+- Apply AI techniques to real-world agricultural problems
 
-To reduce crop failure risk
+---
 
-To support farmers with AI-driven insights
+## 🧠 Technologies Used
+- **Programming Language:** Python  
+- **IDE:** PyCharm / Jupyter Notebook  
+- **Libraries:**  
+  - NumPy  
+  - Pandas  
+  - Matplotlib  
+  - Seaborn  
+  - Scikit-learn  
 
-To apply machine learning concepts to real-world agricultural problems
+---
 
-🧠 Technologies Used
+## 🤖 Machine Learning Algorithms
+- Random Forest Classifier  
+- Decision Tree  
+- K-Nearest Neighbors (KNN)  
 
-Programming Language: Python
+*(Algorithm selection is based on accuracy and performance comparison)*
 
-IDE: PyCharm / Jupyter Notebook
+---
 
-Libraries:
+## 📊 Dataset
+The dataset contains the following attributes:
+- Nitrogen (N)
+- Phosphorus (P)
+- Potassium (K)
+- Temperature
+- Humidity
+- pH Value
+- Rainfall
+- Crop Label
 
-NumPy
+**Dataset Source:** Public agricultural dataset (Kaggle)
 
-Pandas
+---
 
-Matplotlib / Seaborn
+## ⚙️ Workflow
+1. Data Collection
+2. Data Preprocessing
+3. Exploratory Data Analysis (EDA)
+4. Feature Selection
+5. Model Training
+6. Model Evaluation
+7. Crop Prediction
 
-Scikit-learn
+---
 
-Machine Learning Algorithm:
+## 🚀 Features
+- Accurate crop prediction
+- User-friendly input parameters
+- Data visualization for insights
+- Scalable ML model
 
-Decision Tree / Random Forest / KNN (mention what you used)
+---
 
-📊 Dataset
+## 📈 Model Evaluation Metrics
+- Accuracy Score
+- Precision
+- Recall
+- F1-Score
+- Confusion Matrix
 
-The dataset contains information such as:
+---
 
-Nitrogen (N)
-
-Phosphorus (P)
-
-Potassium (K)
-
-Temperature
-
-Humidity
-
-pH value
-
-Rainfall
-
-Crop label
-
-Dataset source: Kaggle / Public Dataset (mention source if known)
-
-⚙️ How It Works
-
-Load and preprocess the dataset
-
-Perform exploratory data analysis (EDA)
-
-Split the data into training and testing sets
-
-Train the machine learning model
-
-Evaluate model performance
-
-Predict the best crop based on user input
-
-🚀 Features
-
-Accurate crop prediction
-
-User-friendly input parameters
-
-Data visualization for better understanding
-
-Scalable for real-time agricultural use
-
-📈 Model Evaluation
-
-Accuracy Score
-
-Confusion Matrix
-
-Precision, Recall, and F1-Score
-
-🛠️ Installation & Execution
+## 🛠️ Installation & Execution
+```bash
 git clone https://github.com/your-username/crop-recommendation-system.git
 cd crop-recommendation-system
 pip install -r requirements.txt
-python app.py
-
-🔮 Future Enhancements
-
-Web-based interface using Flask or FastAPI
-
-Integration with weather APIs
-
-Fertilizer recommendation system
-
-Mobile application support
-
-👩‍💻 Author
-
-Vishakha Damodhar
-B.Tech Computer Science Engineering
-Interested in AI, Machine Learning & Data Analytics
+python main.py
